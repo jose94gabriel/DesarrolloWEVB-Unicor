@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="css/estilo.css">
+    <header>
+        <title>ACTIVIDAD 3</title>
+        <body>
+            <div style="text-align: center;">
+                <table border="1" style="margin: 0 auto;">
+                <tr>
+                    <td colspan="2" class="titulo">
+                        FORMULARIO    
+                    </td>
+                    <tr>
+                        <td>Digite numero:</td>
+                        <td><Input type="text" size="20" maxlength="10"></Input></td>
+                    </tr>
+
+                    <tr>
+                        <td>Ingrese nombre:</td>
+                        <td><Input type="text" size="20" maxlength="40"></Input></td>
+                    </tr>
+
+                    <tr>
+                        <td>Ingrese Apellido:</td>
+                        <td><Input type="text" size="20" maxlength="40"></Input></td>
+                    </tr>
+
+                    <tr>
+                        <td>Ingrese un texto aqui:</td>
+                        <td><textarea name="textarea" rows="3" maxlength="200"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td>Ingrese la fecha:</td>
+                        <td><input type="date"></input></td>
+                    </tr>
+
+                    <tr>
+                        <td>Ingrese la hora:</td>
+                        <td><input type="time"></input></td>
+                    </tr>
+
+                    <tr>
+                        <td>Seleccione una opcion:</td>
+                        <td><label><input type="checkbox" id="cbox1" value="first_checkbox"> Este es mi primer checkbox</label><br>
+                        <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Este es mi segundo checkbox</label>
+                        </td>                      
+                    </tr>
+
+                    <tr>
+                        <td>Seleccione una opcion:</td>
+                        <td><label><input type="radio" id="rda1" value="first_checkbox"> Este es mi primer radio</label><br>
+                        <label><input type="radio" id="rda2" value="first_checkbox"> Este es mi segundo radio</label><br>
+                        <label><input type="radio" id="rda3" value="first_checkbox"> Este es mi tercer radio</label></td>
+                    </tr>
+
+                    <tr>
+                        <td>Seleccione un color:</td>
+                        <td><input type="color"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Ingrese su correo:</td>
+                        <td><input type="email" name="" id=""></td>
+                    </tr>
+
+                    <tr>
+                        <td>Selecione un opcion:</td>
+                        <td><select name="OS">
+                            <option value="1">Windows Vista</option> 
+                            <option value="2">Windows 7</option> 
+                            <option value="3">Windows XP</option>
+                            <option value="10">Fedora</option> 
+                            <option value="11">Debian</option> 
+                            <option value="12">Suse</option> 
+                         </select></td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Selecione varias opciones:
+                        </td>
+                        <td>
+                            <select name="mascotasfavoritas[]" multiple>
+                                <option>Perro</option>
+                                <option>Gato</option>
+                                <option>Conejo</option>
+                              </select>
+                       </td>
+
+                       <tr>
+                           <td>Busqueda:</td>
+                           <td><input type="search" name="busquedamodelos" list="listamodelos"></td>                        
+                          </p>                     
+                        
+                          <datalist id="listamodelos">
+                        
+                          <option value="Camaro">
+                        
+                          <option value="Corvette">
+                        
+                          <option value="Impala">
+                        
+                          <option value="Colorado">
+                        
+                        </datalist></td>
+                       </tr>
+                    </tr>
+                </tr>
+            </table>
+        </div>
+        </body>
+    </header>
+</html>

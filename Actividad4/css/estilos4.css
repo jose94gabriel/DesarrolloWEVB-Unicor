@@ -1,0 +1,22 @@
+
+.tabla {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.cabeza {
+	width: 700px;
+}
+
+.inicio {
+	height: 50px;
+	width: 700px;
+}
+
+.menus {
+	width: 80px;
+	text-align: center;
+}
+ .header {
+	 width: 700px;
+ }
